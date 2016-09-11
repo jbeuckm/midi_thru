@@ -14987,8 +14987,8 @@ A modification of conn-hirshman:MAB5SH with two options for the grounding 'teeth
 <instance part="THRU_2" gate="G$1" x="162.56" y="116.84"/>
 <instance part="THRU_3" gate="G$1" x="162.56" y="93.98"/>
 <instance part="THRU_4" gate="G$1" x="162.56" y="71.12"/>
-<instance part="IN" gate="G$1" x="12.7" y="114.3"/>
-<instance part="JP1" gate="A" x="30.48" y="124.46"/>
+<instance part="IN" gate="G$1" x="10.16" y="114.3"/>
+<instance part="JP1" gate="A" x="27.94" y="124.46"/>
 <instance part="P+3" gate="1" x="40.64" y="127"/>
 <instance part="THRU_1" gate="G$2" x="38.1" y="157.48"/>
 <instance part="THRU_1" gate="G$3" x="38.1" y="154.94"/>
@@ -15027,8 +15027,8 @@ A modification of conn-hirshman:MAB5SH with two options for the grounding 'teeth
 <wire x1="43.18" y1="101.6" x2="43.18" y2="104.14" width="0.1524" layer="91"/>
 <junction x="43.18" y="101.6"/>
 <pinref part="IN" gate="G$1" pin="5"/>
-<wire x1="0" y1="111.76" x2="0" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="0" y1="101.6" x2="43.18" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="111.76" x2="-2.54" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="101.6" x2="43.18" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -15092,9 +15092,9 @@ A modification of conn-hirshman:MAB5SH with two options for the grounding 'teeth
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="2"/>
-<wire x1="33.02" y1="121.92" x2="33.02" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="121.92" x2="30.48" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
-<wire x1="33.02" y1="119.38" x2="40.64" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="119.38" x2="40.64" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="119.38" x2="40.64" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -15332,10 +15332,11 @@ A modification of conn-hirshman:MAB5SH with two options for the grounding 'teeth
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="IN" gate="G$1" pin="4"/>
+<wire x1="22.86" y1="111.76" x2="27.94" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="1"/>
-<wire x1="27.94" y1="111.76" x2="25.4" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="111.76" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="121.92" x2="27.94" y2="111.76" width="0.1524" layer="91"/>
+<junction x="27.94" y="111.76"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -15369,6 +15370,9 @@ A modification of conn-hirshman:MAB5SH with two options for the grounding 'teeth
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,163.83,53.0183,LED1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
